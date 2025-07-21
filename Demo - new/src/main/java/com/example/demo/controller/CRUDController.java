@@ -1,4 +1,4 @@
-package com.example.demo_new.controller;
+package com.example.demo.controller;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/demo/v2") // Base path for all endpoints in this controller
+@RequestMapping("/demo/v1") // Base path for all endpoints in this controller
 
 // TODO: SpringBoot:Practical 1
 // Create a new Spring Boot Project as per guide
