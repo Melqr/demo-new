@@ -35,6 +35,13 @@ import org.springframework.web.bind.annotation.RestController;
 // Brainstorm it together and exchange idea
 // Create a new class to decouple the logic below
 
+
+//answer
+//seprate the https class and logic implementation 
+//validation no need services 
+//util is straight forward, no need services
+//util class and services class must study
+
 public class CRUDController {
 
 	private final Map<Long, String> dataStore = new ConcurrentHashMap<>();
